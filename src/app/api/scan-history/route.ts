@@ -13,7 +13,7 @@ export async function GET(request: Request) {
       );
     }
 
-    const scanHistory = await prisma.scan.findMany({
+    const scanHistory = await prisma.scanHistory.findMany({
       where: {
         user: {
           email: session.user.email,
@@ -29,6 +29,7 @@ export async function GET(request: Request) {
             email: true,
           },
         },
+        device: true,
       },
     });
 
