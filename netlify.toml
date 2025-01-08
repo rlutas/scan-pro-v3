@@ -9,9 +9,12 @@
 [build.environment]
   NEXT_USE_NETLIFY_EDGE = "true"
   NODE_VERSION = "18.17.0"
-  RUBY_VERSION = "false"
+  # Completely disable other runtimes
+  PYTHON = "false"
   PYTHON_VERSION = "false"
-  GO_VERSION = "false"
+  USE_PYTHON = "false"
+  MISE_PYTHON_COMPILE = "false"
+  MISE_SETTINGS_PYTHON_COMPILE = "false"
 
 [[redirects]]
   from = "/*"
