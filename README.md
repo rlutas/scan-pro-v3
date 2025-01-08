@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ScanPro - ID Verification & Self-Exclusion Management
 
 ScanPro is a comprehensive SaaS solution designed for Romanian casinos, offering advanced ID verification and self-exclusion management capabilities.
@@ -26,3 +27,7 @@ ScanPro is a comprehensive SaaS solution designed for Romanian casinos, offering
 ## Getting Started
 
 1. Clone the repository:
+=======
+# scan-pro-v3
+Scan Pro App
+>>>>>>> 90e85e6e292d012775f082a51ab7c85ef3df2517
