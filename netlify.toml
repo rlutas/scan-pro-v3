@@ -9,6 +9,9 @@
 [build.environment]
   NEXT_USE_NETLIFY_EDGE = "true"
   NODE_VERSION = "18.17.0"
+  RUBY_VERSION = "false"
+  PYTHON_VERSION = "false"
+  GO_VERSION = "false"
 
 [[redirects]]
   from = "/*"
