@@ -4,16 +4,24 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Reset Password | Play SaaS Starter Kit and Boilerplate for Next.js",
+  title: "Reset Password | ScanPro",
 };
 
-const ResetPasswordPage = ({ params }: { params: { token: string } }) => {
+interface PageProps {
+  params: {
+    token: string;
+  };
+  searchParams: { [key: string]: string | string[] | undefined };
+}
+
+export default async function ResetPasswordPage({ 
+  params,
+  searchParams 
+}: PageProps) {
   return (
     <>
       <Breadcrumb pageName="Reset Password" />
       <ResetPassword token={params.token} />
     </>
   );
-};
-
-export default ResetPasswordPage;
+}
