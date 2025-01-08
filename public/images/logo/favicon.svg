@@ -1,0 +1,21 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer Circle (White) -->
+  <circle cx="16" cy="16" r="16" fill="#FFFFFF"/>
+  
+  <!-- Inner Circle (Blue) -->
+  <circle cx="16" cy="16" r="14" fill="#3659f9"/>
+  
+  <!-- Document Icon - Simplified for small size -->
+  <rect x="10" y="8" width="12" height="16" rx="2" fill="#FFFFFF"/>
+  
+  <!-- Document Details - Minimal for favicon -->
+  <circle cx="16" cy="13" r="2" fill="#3659f9"/>
+  <rect x="12" y="16" width="8" height="1.5" fill="#3659f9"/>
+  <rect x="12" y="19" width="8" height="1.5" fill="#3659f9"/>
+  
+  <!-- Corner Markers - Simplified -->
+  <path d="M7 11L7 7L11 7" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M25 11L25 7L21 7" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M7 21L7 25L11 25" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M25 21L25 25L21 25" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+</svg>
