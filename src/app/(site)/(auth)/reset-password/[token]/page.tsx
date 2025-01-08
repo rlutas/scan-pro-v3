@@ -7,17 +7,11 @@ export const metadata: Metadata = {
   title: "Reset Password | ScanPro",
 };
 
-interface PageProps {
-  params: {
-    token: string;
-  };
-  searchParams: { [key: string]: string | string[] | undefined };
-}
-
-export default async function ResetPasswordPage({ 
+export default function ResetPasswordPage({
   params,
-  searchParams 
-}: PageProps) {
+}: {
+  params: { token: string }
+}) {
   return (
     <>
       <Breadcrumb pageName="Reset Password" />
@@ -25,3 +19,5 @@ export default async function ResetPasswordPage({
     </>
   );
 }
+
+export const dynamic = 'force-dynamic';
